@@ -83,7 +83,10 @@ main{
     grid-template-columns:repeat( 2,1fr);
     gap: 1.5rem;
 }
-.teams-content 
+.teams-content {
+    padding-left: 70px;
+    padding-right: 70px;
+}
 .facts-card-container{
     padding-left: 70px;
     padding-right: 70px;
@@ -186,7 +189,20 @@ main{
 .sponsors-img-container img{
     width: 165px;
 }
-
+/* footer style */
+ .footer-info{
+    border-radius: 8px;
+    background: #FFF4E7;
+     margin-right: 240px;
+     margin-left: 240px;
+}
+ .copyright-text{
+     text-align: center;
+     padding: 40px 410px;
+     
+     align-items: center;
+}
+ 
    /* responsive media queries */
     /* mobile divices */
     @media screen and (max-width:576px) {
